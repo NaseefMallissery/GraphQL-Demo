@@ -36,3 +36,171 @@ Fri May 26 2023 [15:51:13 GMT+0530 (India Standard Time)] Log file started
 [3:51:13 PM] [General] [Info]     C:\Program Files\Java\jdk-19\bin
 [3:51:13 PM] [General] [Info]     C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin
 [3:51:13 PM] [General] [Info]     C:\Users\User\AppData\Local\GitHubDesktop\bin
+[3:51:24 PM] [General] [Info] Took 10648ms to search for projects (5 levels)
+[3:51:24 PM] [General] [Info] Took 6ms to filter out excluded projects (0 exclusion rules)
+[3:51:24 PM] [General] [Info] Found Flutter project at C:\Users\User\to_do_app:
+			Mobile? true
+			Web? false
+			Create Trigger? false
+			Flutter Repo? false
+[3:51:24 PM] [General] [Info] Searching for flutter.bat
+[3:51:24 PM] [General] [Info]     Looking for flutter.bat in:
+[3:51:24 PM] [General] [Info]         C:\Users\User\to_do_app
+[3:51:24 PM] [General] [Info]         C:\Users\User\to_do_app\bin
+[3:51:24 PM] [General] [Info]         C:\Users\User\Downloads\flutter\bin\
+[3:51:24 PM] [General] [Info]         C:\Users\User\to_do_app\.flutter
+[3:51:24 PM] [General] [Info]         C:\Users\User\to_do_app\.flutter\bin
+[3:51:24 PM] [General] [Info]         C:\Users\User\to_do_app\vendor\flutter
+[3:51:24 PM] [General] [Info]         C:\Users\User\to_do_app\vendor\flutter\bin
+[3:51:24 PM] [General] [Info]         C:\Users\User\flutter-sdk
+[3:51:24 PM] [General] [Info]         C:\Users\User\flutter-sdk\bin
+[3:51:24 PM] [General] [Info]         /google/flutter
+[3:51:24 PM] [General] [Info]         \google\flutter\bin
+[3:51:24 PM] [General] [Info]         C:\Program Files\Common Files\Oracle\Java\javapath
+[3:51:24 PM] [General] [Info]         C:\Program Files\Common Files\Oracle\Java\javapath\bin
+[3:51:24 PM] [General] [Info]         C:\Program Files (x86)\Common Files\Oracle\Java\javapath
+[3:51:24 PM] [General] [Info]         C:\Program Files (x86)\Common Files\Oracle\Java\javapath\bin
+[3:51:24 PM] [General] [Info]         C:\Windows\system32
+[3:51:24 PM] [General] [Info]         C:\Windows\system32\bin
+[3:51:24 PM] [General] [Info]         C:\Windows
+[3:51:24 PM] [General] [Info]         C:\Windows\bin
+[3:51:24 PM] [General] [Info]         C:\Windows\System32\Wbem
+[3:51:24 PM] [General] [Info]         C:\Windows\System32\Wbem\bin
+[3:51:24 PM] [General] [Info]         C:\Windows\System32\WindowsPowerShell\v1.0\
+[3:51:24 PM] [General] [Info]         C:\Windows\System32\WindowsPowerShell\v1.0\bin
+[3:51:24 PM] [General] [Info]         C:\Windows\System32\OpenSSH\
+[3:51:24 PM] [General] [Info]         C:\Windows\System32\OpenSSH\bin
+[3:51:24 PM] [General] [Info]         C:\Program Files\dotnet\
+[3:51:24 PM] [General] [Info]         C:\Program Files\dotnet\bin
+[3:51:24 PM] [General] [Info]         C:\Program Files\Git\cmd
+[3:51:24 PM] [General] [Info]         C:\Program Files\Git\cmd\bin
+[3:51:24 PM] [General] [Info]         C:\Program Files\nodejs\
+[3:51:24 PM] [General] [Info]         C:\Program Files\nodejs\bin
+[3:51:24 PM] [General] [Info]         C:\Program Files\Git LFS
+[3:51:24 PM] [General] [Info]         C:\Program Files\Git LFS\bin
+[3:51:24 PM] [General] [Info]         C:\Users\User\AppData\Local\Microsoft\WindowsApps
+[3:51:24 PM] [General] [Info]         C:\Users\User\AppData\Local\Microsoft\WindowsApps\bin
+[3:51:24 PM] [General] [Info]         C:\mingw64\bin
+[3:51:24 PM] [General] [Info]         C:\Users\User\Downloads\flutter\bin
+[3:51:24 PM] [General] [Info]         C:\Users\User\Documents\flutter\bin
+[3:51:24 PM] [General] [Info]         C:\Users\User\.dotnet\tools
+[3:51:24 PM] [General] [Info]         C:\Users\User\.dotnet\tools\bin
+[3:51:24 PM] [General] [Info]         C:\Users\User\AppData\Roaming\npm
+[3:51:24 PM] [General] [Info]         C:\Users\User\AppData\Roaming\npm\bin
+[3:51:24 PM] [General] [Info]         C:\Program Files\Java\jdk-19\bin
+[3:51:24 PM] [General] [Info]         C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin
+[3:51:24 PM] [General] [Info]         C:\Users\User\AppData\Local\GitHubDesktop\bin
+[3:51:24 PM] [General] [Info]     Found at:
+[3:51:24 PM] [General] [Info]         C:\Users\User\Downloads\flutter\bin\
+[3:51:24 PM] [General] [Info]         C:\Users\User\Downloads\flutter\bin
+[3:51:24 PM] [General] [Info]         C:\Users\User\Documents\flutter\bin
+[3:51:24 PM] [General] [Info]     Candidate paths to be post-filtered:
+[3:51:24 PM] [General] [Info]         C:\Users\User\Downloads\flutter
+[3:51:24 PM] [General] [Info]         C:\Users\User\Downloads\flutter
+[3:51:24 PM] [General] [Info]         C:\Users\User\Documents\flutter
+[3:51:24 PM] [General] [Info]     Found at C:\Users\User\Downloads\flutter
+[3:51:24 PM] [General] [Info]     Returning SDK path C:\Users\User\Downloads\flutter for flutter.bat
+[3:51:24 PM] [General] [Info] Searching for dart.exe
+[3:51:24 PM] [General] [Info]     Looking for dart.exe in:
+[3:51:24 PM] [General] [Info]         C:\Users\User\Downloads\flutter\bin\cache\dart-sdk
+[3:51:24 PM] [General] [Info]         C:\Users\User\Downloads\flutter\bin\cache\dart-sdk\bin
+[3:51:24 PM] [General] [Info]         C:\Program Files\Common Files\Oracle\Java\javapath
+[3:51:24 PM] [General] [Info]         C:\Program Files\Common Files\Oracle\Java\javapath\bin
+[3:51:24 PM] [General] [Info]         C:\Program Files (x86)\Common Files\Oracle\Java\javapath
+[3:51:24 PM] [General] [Info]         C:\Program Files (x86)\Common Files\Oracle\Java\javapath\bin
+[3:51:24 PM] [General] [Info]         C:\Windows\system32
+[3:51:24 PM] [General] [Info]         C:\Windows\system32\bin
+[3:51:24 PM] [General] [Info]         C:\Windows
+[3:51:24 PM] [General] [Info]         C:\Windows\bin
+[3:51:24 PM] [General] [Info]         C:\Windows\System32\Wbem
+[3:51:24 PM] [General] [Info]         C:\Windows\System32\Wbem\bin
+[3:51:24 PM] [General] [Info]         C:\Windows\System32\WindowsPowerShell\v1.0\
+[3:51:24 PM] [General] [Info]         C:\Windows\System32\WindowsPowerShell\v1.0\bin
+[3:51:24 PM] [General] [Info]         C:\Windows\System32\OpenSSH\
+[3:51:24 PM] [General] [Info]         C:\Windows\System32\OpenSSH\bin
+[3:51:24 PM] [General] [Info]         C:\Program Files\dotnet\
+[3:51:24 PM] [General] [Info]         C:\Program Files\dotnet\bin
+[3:51:24 PM] [General] [Info]         C:\Program Files\Git\cmd
+[3:51:24 PM] [General] [Info]         C:\Program Files\Git\cmd\bin
+[3:51:24 PM] [General] [Info]         C:\Program Files\nodejs\
+[3:51:24 PM] [General] [Info]         C:\Program Files\nodejs\bin
+[3:51:24 PM] [General] [Info]         C:\Program Files\Git LFS
+[3:51:24 PM] [General] [Info]         C:\Program Files\Git LFS\bin
+[3:51:24 PM] [General] [Info]         C:\Users\User\AppData\Local\Microsoft\WindowsApps
+[3:51:24 PM] [General] [Info]         C:\Users\User\AppData\Local\Microsoft\WindowsApps\bin
+[3:51:24 PM] [General] [Info]         C:\mingw64\bin
+[3:51:24 PM] [General] [Info]         C:\Users\User\Downloads\flutter\bin
+[3:51:24 PM] [General] [Info]         C:\Users\User\Documents\flutter\bin
+[3:51:24 PM] [General] [Info]         C:\Users\User\.dotnet\tools
+[3:51:24 PM] [General] [Info]         C:\Users\User\.dotnet\tools\bin
+[3:51:24 PM] [General] [Info]         C:\Users\User\AppData\Roaming\npm
+[3:51:24 PM] [General] [Info]         C:\Users\User\AppData\Roaming\npm\bin
+[3:51:24 PM] [General] [Info]         C:\Program Files\Java\jdk-19\bin
+[3:51:24 PM] [General] [Info]         C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin
+[3:51:24 PM] [General] [Info]         C:\Users\User\AppData\Local\GitHubDesktop\bin
+[3:51:24 PM] [General] [Info]         C:\Users\User\Downloads\flutter\bin\cache\dart-sdk
+[3:51:24 PM] [General] [Info]         C:\Users\User\Downloads\flutter\bin\cache\dart-sdk\bin
+[3:51:24 PM] [General] [Info]     Found at:
+[3:51:24 PM] [General] [Info]         C:\Users\User\Downloads\flutter\bin\cache\dart-sdk\bin
+[3:51:24 PM] [General] [Info]         C:\Users\User\Downloads\flutter\bin\cache\dart-sdk\bin
+[3:51:24 PM] [General] [Info]     Candidate paths to be post-filtered:
+[3:51:24 PM] [General] [Info]         C:\Users\User\Downloads\flutter\bin\cache\dart-sdk
+[3:51:24 PM] [General] [Info]         C:\Users\User\Downloads\flutter\bin\cache\dart-sdk
+[3:51:24 PM] [General] [Info]     Found at C:\Users\User\Downloads\flutter\bin\cache\dart-sdk
+[3:51:24 PM] [General] [Info]     Returning SDK path C:\Users\User\Downloads\flutter\bin\cache\dart-sdk for dart.exe
+[3:51:24 PM] [General] [Info] Experiment random number is 97 for experiment 'sdkDaps'. Experiment is enabled for <= 10
+[3:51:24 PM] [General] [Info] Experiment 'sdkDaps' does not apply and will not be activated
+[3:51:24 PM] [General] [Info] !! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.64.0
+Flutter extension: 3.64.0 (not activated)
+
+App: Visual Studio Code
+Version: 1.78.2
+Platform: win
+
+Workspace type: Flutter
+Analyzer type: LSP
+Multi-root?: false
+
+Dart SDK:
+    Loc: C:\Users\User\Downloads\flutter\bin\cache\dart-sdk
+    Ver: 3.0.0
+Flutter SDK:
+    Loc: C:\Users\User\Downloads\flutter
+    Ver: 3.10.0
+
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+[3:51:24 PM] [General] [Info] Returning cached results for project search
+[3:51:24 PM] [General] [Info] Activating Flutter extension for Flutter project...
+[3:51:24 PM] [General] [Info] Version last used for Pub is 3.0.0 (3.0.0), current is 3.0.0 (3.0.0)
+[3:51:24 PM] [General] [Info] Found 0 folders requiring "pub get" or "pub upgrade":
+[3:51:25 PM] [General] [Info] Loaded 20000 package names from vscode-userdata:/c%3A/Users/User/AppData/Roaming/Code/User/globalStorage/dart-code.dart-code/package_cache.json
+[3:51:25 PM] [General] [Info] !! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.64.0
+Flutter extension: 3.64.0 (activated)
+
+App: Visual Studio Code
+Version: 1.78.2
+Platform: win
+
+Workspace type: Flutter
+Analyzer type: LSP
+Multi-root?: false
+
+Dart SDK:
+    Loc: C:\Users\User\Downloads\flutter\bin\cache\dart-sdk
+    Ver: 3.0.0
+Flutter SDK:
+    Loc: C:\Users\User\Downloads\flutter
+    Ver: 3.10.0
+
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+[3:51:36 PM] [General] [Info] Returning cached results for project search
+[3:51:36 PM] [General] [Info] Checking 1 projects for supported platforms
+[3:51:36 PM] [General] [Info] Supported platforms for the workspace are linux, macos, windows, ios, android, web
+[3:59:35 PM] [General] [Info] Took 53ms to search for projects (5 levels)
+[3:59:35 PM] [General] [Info] Took 4ms to filter out excluded projects (0 exclusion rules)

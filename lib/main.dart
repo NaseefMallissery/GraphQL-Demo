@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:graphql_flutter/graphql_flutter.dart';
+import 'package:to_do_app/constants/api_endpoints/api_url.dart';
 import 'package:to_do_app/view/home_page.dart';
 
 void main() {
@@ -10,13 +13,24 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'GraphQl Demo',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
+    return GraphQLProvider(
+      client: ValueNotifier(
+        GraphQLClient(
+          link: ApiUrl().httpLink,
+          cache: GraphQLCache(
+            store: InMemoryStore(),
+          ),
+        ),
       ),
-      home: const HomePage(),
+      child: GetMaterialApp(
+        title: 'GraphQl Demo',
+        theme: ThemeData(
+          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+          useMaterial3: true,
+        ),
+        home: const HomePage(),
+        debugShowCheckedModeBanner: false,
+      ),
     );
   }
 }

@@ -1,0 +1,603 @@
+!! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.64.0
+Flutter extension: 3.64.0 (not activated)
+
+App: Visual Studio Code
+Version: 1.78.2
+Platform: win
+
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+
+Logging Categories:
+    General
+
+Thu Jun 01 2023 [10:04:23 GMT+0530 (India Standard Time)] Log file started
+[10:04:23 AM] [General] [Info] Searching for SDKs...
+[10:04:23 AM] [General] [Info] Environment PATH:
+[10:04:23 AM] [General] [Info]     C:\Program Files\Common Files\Oracle\Java\javapath
+[10:04:23 AM] [General] [Info]     C:\Program Files (x86)\Common Files\Oracle\Java\javapath
+[10:04:23 AM] [General] [Info]     C:\Windows\system32
+[10:04:23 AM] [General] [Info]     C:\Windows
+[10:04:23 AM] [General] [Info]     C:\Windows\System32\Wbem
+[10:04:23 AM] [General] [Info]     C:\Windows\System32\WindowsPowerShell\v1.0\
+[10:04:23 AM] [General] [Info]     C:\Windows\System32\OpenSSH\
+[10:04:23 AM] [General] [Info]     C:\Program Files\dotnet\
+[10:04:23 AM] [General] [Info]     C:\Program Files\Git\cmd
+[10:04:23 AM] [General] [Info]     C:\Program Files\nodejs\
+[10:04:23 AM] [General] [Info]     C:\Program Files\Git LFS
+[10:04:23 AM] [General] [Info]     C:\Users\User\AppData\Local\Microsoft\WindowsApps
+[10:04:23 AM] [General] [Info]     C:\mingw64\bin
+[10:04:23 AM] [General] [Info]     C:\Users\User\Downloads\flutter\bin
+[10:04:23 AM] [General] [Info]     C:\Users\User\Documents\flutter\bin
+[10:04:23 AM] [General] [Info]     C:\Users\User\.dotnet\tools
+[10:04:23 AM] [General] [Info]     C:\Users\User\AppData\Roaming\npm
+[10:04:23 AM] [General] [Info]     C:\Program Files\Java\jdk-19\bin
+[10:04:23 AM] [General] [Info]     C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin
+[10:04:23 AM] [General] [Info]     C:\Users\User\AppData\Local\GitHubDesktop\bin
+[10:04:29 AM] [General] [Info] Took 5478ms to search for projects (5 levels)
+[10:04:29 AM] [General] [Info] Took 63ms to filter out excluded projects (0 exclusion rules)
+[10:04:29 AM] [General] [Info] Found Flutter project at C:\Users\User\to_do_app:
+			Mobile? true
+			Web? false
+			Create Trigger? false
+			Flutter Repo? false
+[10:04:29 AM] [General] [Info] Searching for flutter.bat
+[10:04:29 AM] [General] [Info]     Looking for flutter.bat in:
+[10:04:29 AM] [General] [Info]         C:\Users\User\to_do_app
+[10:04:29 AM] [General] [Info]         C:\Users\User\to_do_app\bin
+[10:04:29 AM] [General] [Info]         C:\Users\User\Downloads\flutter\bin\
+[10:04:29 AM] [General] [Info]         C:\Users\User\to_do_app\.flutter
+[10:04:29 AM] [General] [Info]         C:\Users\User\to_do_app\.flutter\bin
+[10:04:29 AM] [General] [Info]         C:\Users\User\to_do_app\vendor\flutter
+[10:04:29 AM] [General] [Info]         C:\Users\User\to_do_app\vendor\flutter\bin
+[10:04:29 AM] [General] [Info]         C:\Users\User\flutter-sdk
+[10:04:29 AM] [General] [Info]         C:\Users\User\flutter-sdk\bin
+[10:04:29 AM] [General] [Info]         /google/flutter
+[10:04:29 AM] [General] [Info]         \google\flutter\bin
+[10:04:29 AM] [General] [Info]         C:\Program Files\Common Files\Oracle\Java\javapath
+[10:04:29 AM] [General] [Info]         C:\Program Files\Common Files\Oracle\Java\javapath\bin
+[10:04:29 AM] [General] [Info]         C:\Program Files (x86)\Common Files\Oracle\Java\javapath
+[10:04:29 AM] [General] [Info]         C:\Program Files (x86)\Common Files\Oracle\Java\javapath\bin
+[10:04:29 AM] [General] [Info]         C:\Windows\system32
+[10:04:29 AM] [General] [Info]         C:\Windows\system32\bin
+[10:04:29 AM] [General] [Info]         C:\Windows
+[10:04:29 AM] [General] [Info]         C:\Windows\bin
+[10:04:29 AM] [General] [Info]         C:\Windows\System32\Wbem
+[10:04:29 AM] [General] [Info]         C:\Windows\System32\Wbem\bin
+[10:04:29 AM] [General] [Info]         C:\Windows\System32\WindowsPowerShell\v1.0\
+[10:04:29 AM] [General] [Info]         C:\Windows\System32\WindowsPowerShell\v1.0\bin
+[10:04:29 AM] [General] [Info]         C:\Windows\System32\OpenSSH\
+[10:04:29 AM] [General] [Info]         C:\Windows\System32\OpenSSH\bin
+[10:04:29 AM] [General] [Info]         C:\Program Files\dotnet\
+[10:04:29 AM] [General] [Info]         C:\Program Files\dotnet\bin
+[10:04:29 AM] [General] [Info]         C:\Program Files\Git\cmd
+[10:04:29 AM] [General] [Info]         C:\Program Files\Git\cmd\bin
+[10:04:29 AM] [General] [Info]         C:\Program Files\nodejs\
+[10:04:29 AM] [General] [Info]         C:\Program Files\nodejs\bin
+[10:04:29 AM] [General] [Info]         C:\Program Files\Git LFS
+[10:04:29 AM] [General] [Info]         C:\Program Files\Git LFS\bin
+[10:04:29 AM] [General] [Info]         C:\Users\User\AppData\Local\Microsoft\WindowsApps
+[10:04:29 AM] [General] [Info]         C:\Users\User\AppData\Local\Microsoft\WindowsApps\bin
+[10:04:29 AM] [General] [Info]         C:\mingw64\bin
+[10:04:29 AM] [General] [Info]         C:\Users\User\Downloads\flutter\bin
+[10:04:29 AM] [General] [Info]         C:\Users\User\Documents\flutter\bin
+[10:04:29 AM] [General] [Info]         C:\Users\User\.dotnet\tools
+[10:04:29 AM] [General] [Info]         C:\Users\User\.dotnet\tools\bin
+[10:04:29 AM] [General] [Info]         C:\Users\User\AppData\Roaming\npm
+[10:04:29 AM] [General] [Info]         C:\Users\User\AppData\Roaming\npm\bin
+[10:04:29 AM] [General] [Info]         C:\Program Files\Java\jdk-19\bin
+[10:04:29 AM] [General] [Info]         C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin
+[10:04:29 AM] [General] [Info]         C:\Users\User\AppData\Local\GitHubDesktop\bin
+[10:04:29 AM] [General] [Info]     Found at:
+[10:04:29 AM] [General] [Info]         C:\Users\User\Downloads\flutter\bin\
+[10:04:29 AM] [General] [Info]         C:\Users\User\Downloads\flutter\bin
+[10:04:29 AM] [General] [Info]         C:\Users\User\Documents\flutter\bin
+[10:04:29 AM] [General] [Info]     Candidate paths to be post-filtered:
+[10:04:29 AM] [General] [Info]         C:\Users\User\Downloads\flutter
+[10:04:29 AM] [General] [Info]         C:\Users\User\Downloads\flutter
+[10:04:29 AM] [General] [Info]         C:\Users\User\Documents\flutter
+[10:04:29 AM] [General] [Info]     Found at C:\Users\User\Downloads\flutter
+[10:04:29 AM] [General] [Info]     Returning SDK path C:\Users\User\Downloads\flutter for flutter.bat
+[10:04:29 AM] [General] [Info] Searching for dart.exe
+[10:04:29 AM] [General] [Info]     Looking for dart.exe in:
+[10:04:29 AM] [General] [Info]         C:\Users\User\Downloads\flutter\bin\cache\dart-sdk
+[10:04:29 AM] [General] [Info]         C:\Users\User\Downloads\flutter\bin\cache\dart-sdk\bin
+[10:04:29 AM] [General] [Info]         C:\Program Files\Common Files\Oracle\Java\javapath
+[10:04:29 AM] [General] [Info]         C:\Program Files\Common Files\Oracle\Java\javapath\bin
+[10:04:29 AM] [General] [Info]         C:\Program Files (x86)\Common Files\Oracle\Java\javapath
+[10:04:29 AM] [General] [Info]         C:\Program Files (x86)\Common Files\Oracle\Java\javapath\bin
+[10:04:29 AM] [General] [Info]         C:\Windows\system32
+[10:04:29 AM] [General] [Info]         C:\Windows\system32\bin
+[10:04:29 AM] [General] [Info]         C:\Windows
+[10:04:29 AM] [General] [Info]         C:\Windows\bin
+[10:04:29 AM] [General] [Info]         C:\Windows\System32\Wbem
+[10:04:29 AM] [General] [Info]         C:\Windows\System32\Wbem\bin
+[10:04:29 AM] [General] [Info]         C:\Windows\System32\WindowsPowerShell\v1.0\
+[10:04:29 AM] [General] [Info]         C:\Windows\System32\WindowsPowerShell\v1.0\bin
+[10:04:29 AM] [General] [Info]         C:\Windows\System32\OpenSSH\
+[10:04:29 AM] [General] [Info]         C:\Windows\System32\OpenSSH\bin
+[10:04:29 AM] [General] [Info]         C:\Program Files\dotnet\
+[10:04:29 AM] [General] [Info]         C:\Program Files\dotnet\bin
+[10:04:29 AM] [General] [Info]         C:\Program Files\Git\cmd
+[10:04:29 AM] [General] [Info]         C:\Program Files\Git\cmd\bin
+[10:04:29 AM] [General] [Info]         C:\Program Files\nodejs\
+[10:04:29 AM] [General] [Info]         C:\Program Files\nodejs\bin
+[10:04:29 AM] [General] [Info]         C:\Program Files\Git LFS
+[10:04:29 AM] [General] [Info]         C:\Program Files\Git LFS\bin
+[10:04:29 AM] [General] [Info]         C:\Users\User\AppData\Local\Microsoft\WindowsApps
+[10:04:29 AM] [General] [Info]         C:\Users\User\AppData\Local\Microsoft\WindowsApps\bin
+[10:04:29 AM] [General] [Info]         C:\mingw64\bin
+[10:04:29 AM] [General] [Info]         C:\Users\User\Downloads\flutter\bin
+[10:04:29 AM] [General] [Info]         C:\Users\User\Documents\flutter\bin
+[10:04:29 AM] [General] [Info]         C:\Users\User\.dotnet\tools
+[10:04:29 AM] [General] [Info]         C:\Users\User\.dotnet\tools\bin
+[10:04:29 AM] [General] [Info]         C:\Users\User\AppData\Roaming\npm
+[10:04:29 AM] [General] [Info]         C:\Users\User\AppData\Roaming\npm\bin
+[10:04:29 AM] [General] [Info]         C:\Program Files\Java\jdk-19\bin
+[10:04:29 AM] [General] [Info]         C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin
+[10:04:29 AM] [General] [Info]         C:\Users\User\AppData\Local\GitHubDesktop\bin
+[10:04:29 AM] [General] [Info]         C:\Users\User\Downloads\flutter\bin\cache\dart-sdk
+[10:04:29 AM] [General] [Info]         C:\Users\User\Downloads\flutter\bin\cache\dart-sdk\bin
+[10:04:29 AM] [General] [Info]     Found at:
+[10:04:29 AM] [General] [Info]         C:\Users\User\Downloads\flutter\bin\cache\dart-sdk\bin
+[10:04:29 AM] [General] [Info]         C:\Users\User\Downloads\flutter\bin\cache\dart-sdk\bin
+[10:04:29 AM] [General] [Info]     Candidate paths to be post-filtered:
+[10:04:29 AM] [General] [Info]         C:\Users\User\Downloads\flutter\bin\cache\dart-sdk
+[10:04:29 AM] [General] [Info]         C:\Users\User\Downloads\flutter\bin\cache\dart-sdk
+[10:04:29 AM] [General] [Info]     Found at C:\Users\User\Downloads\flutter\bin\cache\dart-sdk
+[10:04:29 AM] [General] [Info]     Returning SDK path C:\Users\User\Downloads\flutter\bin\cache\dart-sdk for dart.exe
+[10:04:29 AM] [General] [Info] Experiment random number is 97 for experiment 'sdkDaps'. Experiment is enabled for <= 10
+[10:04:29 AM] [General] [Info] Experiment 'sdkDaps' does not apply and will not be activated
+[10:04:29 AM] [General] [Info] !! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.64.0
+Flutter extension: 3.64.0 (not activated)
+
+App: Visual Studio Code
+Version: 1.78.2
+Platform: win
+
+Workspace type: Flutter
+Analyzer type: LSP
+Multi-root?: false
+
+Dart SDK:
+    Loc: C:\Users\User\Downloads\flutter\bin\cache\dart-sdk
+    Ver: 3.0.0
+Flutter SDK:
+    Loc: C:\Users\User\Downloads\flutter
+    Ver: 3.10.0
+
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+[10:04:30 AM] [General] [Info] Returning cached results for project search
+[10:04:30 AM] [General] [Info] Activating Flutter extension for Flutter project...
+[10:04:30 AM] [General] [Info] Version last used for Pub is 3.0.0 (3.0.0), current is 3.0.0 (3.0.0)
+[10:04:30 AM] [General] [Info] Found 0 folders requiring "pub get" or "pub upgrade":
+[10:04:30 AM] [General] [Info] Loaded 20000 package names from vscode-userdata:/c%3A/Users/User/AppData/Roaming/Code/User/globalStorage/dart-code.dart-code/package_cache.json
+[10:04:30 AM] [General] [Info] Caching Pub package names from https://pub.dev...
+[10:04:31 AM] [General] [Info] !! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.64.0
+Flutter extension: 3.64.0 (activated)
+
+App: Visual Studio Code
+Version: 1.78.2
+Platform: win
+
+Workspace type: Flutter
+Analyzer type: LSP
+Multi-root?: false
+
+Dart SDK:
+    Loc: C:\Users\User\Downloads\flutter\bin\cache\dart-sdk
+    Ver: 3.0.0
+Flutter SDK:
+    Loc: C:\Users\User\Downloads\flutter
+    Ver: 3.10.0
+
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+[10:04:33 AM] [General] [Info] Saved 20000 in vscode-userdata:/c%3A/Users/User/AppData/Roaming/Code/User/globalStorage/dart-code.dart-code/package_cache.json
+[10:05:04 AM] [General] [Info] Returning cached results for project search
+[10:05:04 AM] [General] [Info] Checking 1 projects for supported platforms
+[10:05:04 AM] [General] [Info] Supported platforms for the workspace are linux, macos, windows, ios, android, web
+[10:05:06 AM] [General] [Info] Returning cached results for project search
+[10:05:16 AM] [General] [Info] Returning cached results for project search
+[10:05:16 AM] [General] [Info] Checking 1 projects for supported platforms
+[10:05:16 AM] [General] [Info] Supported platforms for the workspace are linux, macos, windows, ios, android, web
+[10:05:39 AM] [General] [Info] Saving emulator-5554 as preferred device
+[10:05:39 AM] [General] [Info] Returning cached results for project search
+[10:05:39 AM] [General] [Info] Checking 1 projects for supported platforms
+[10:05:39 AM] [General] [Info] Supported platforms for the workspace are linux, macos, windows, ios, android, web
+[10:07:37 AM] [General] [Info] Starting debug session...
+[10:07:37 AM] [General] [Info]     workspace: C:\Users\User\to_do_app
+[10:07:37 AM] [General] [Info] Setting cwd based on likely entry point: C:\Users\User\to_do_app
+[10:07:37 AM] [General] [Info] Using found common entry point: C:\Users\User\to_do_app\lib\main.dart
+[10:07:37 AM] [General] [Info] Using workspace as cwd: C:\Users\User\to_do_app
+[10:07:37 AM] [General] [Info] Detected launch project as Flutter
+[10:07:37 AM] [General] [Info] Using Flutter debug adapter for this session
+[10:07:37 AM] [General] [Info] Getting DevTools server address to pass to Flutter...
+[10:07:37 AM] [General] [Info] Checking for errors before launching
+[10:07:37 AM] [General] [Info] Debug session starting...
+    {
+        "dartCodeDebugSessionID": "session-b30c9",
+        "type": "dart",
+        "request": "launch",
+        "program": "C:\\Users\\User\\to_do_app\\lib\\main.dart",
+        "cwd": "C:\\Users\\User\\to_do_app",
+        "name": "Flutter (emulator-5554)",
+        "deviceId": "emulator-5554",
+        "deviceName": "emulator-5554 (android-arm)",
+        "toolEnv": {
+            "FLUTTER_HOST": "VSCode",
+            "PUB_ENVIRONMENT": "vscode.dart-code"
+        },
+        "sendLogsToClient": false,
+        "sendCustomProgressEvents": true,
+        "additionalProjectPaths": [
+            "C:\\Users\\User\\to_do_app"
+        ],
+        "args": [],
+        "vmAdditionalArgs": [],
+        "toolArgs": [
+            "-d",
+            "emulator-5554",
+            "--devtools-server-address",
+            "http://127.0.0.1:9100/"
+        ],
+        "vmServicePort": 0,
+        "dartSdkPath": "C:\\Users\\User\\Downloads\\flutter\\bin\\cache\\dart-sdk",
+        "vmServiceLogFile": "C:\\Users\\User\\to_do_app\\logs\\observatory.txt",
+        "maxLogLineLength": 2000,
+        "dartTestLogFile": "C:\\Users\\User\\to_do_app\\logs\\dart_test.txt",
+        "debugSdkLibraries": false,
+        "debugExternalPackageLibraries": false,
+        "showDartDeveloperLogs": true,
+        "evaluateGettersInDebugViews": true,
+        "evaluateToStringInDebugViews": true,
+        "flutterSdkPath": "C:\\Users\\User\\Downloads\\flutter",
+        "useInspectorNotificationsForWidgetErrors": true,
+        "flutterRunLogFile": "C:\\Users\\User\\to_do_app\\logs\\flutter_run.txt",
+        "flutterTestLogFile": "C:\\Users\\User\\to_do_app\\logs\\flutter_test.txt",
+        "showMemoryUsage": false,
+        "debuggerType": 2
+    }
+[10:07:37 AM] [General] [Info] Using flutter debugger for Flutter
+[10:07:37 AM] [General] [Info] SDK DAP setting is false, set by sdkDaps experiment
+[10:07:37 AM] [General] [Info] Running debugger via node with c:\Users\User\.vscode\extensions\dart-code.dart-code-3.64.0\out\dist\debug.js    flutter
+[10:07:38 AM] [General] [Info] Did not find session 2e1bb6cf-ef69-4293-8a5f-62a30d5420ae to handle dart.progressStart. There were 0 sessions:
+[10:07:38 AM] [General] [Info] Event will be queued and processed when the session start event fires
+[10:07:38 AM] [General] [Info] Processing delayed event dart.progressStart for session 2e1bb6cf-ef69-4293-8a5f-62a30d5420ae
+[10:09:22 AM] [General] [Info] Returning cached results for project search
+[10:20:00 AM] [General] [Info] Took 292ms to search for projects (5 levels)
+[10:20:00 AM] [General] [Info] Took 25ms to filter out excluded projects (0 exclusion rules)
+[10:25:46 AM] [General] [Info] Took 423ms to search for projects (5 levels)
+[10:25:46 AM] [General] [Info] Took 7ms to filter out excluded projects (0 exclusion rules)
+[10:28:40 AM] [General] [Info] Returning cached results for project search
+[10:29:16 AM] [General] [Info] Returning cached results for project search
+[10:32:47 AM] [General] [Info] Took 187ms to search for projects (5 levels)
+[10:32:47 AM] [General] [Info] Took 6ms to filter out excluded projects (0 exclusion rules)
+[11:32:13 AM] [FlutterRun] [Error] [Flutter (emulator-5554)] lib/services/service.dart:19:22: Error: Member not found: 'getData'.
+      'query': Query.getData,
+                     ^^^^^^^
+[1:01:06 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] lib/view/home_page.dart:37:43: Error: The getter 'getDataList' isn't defined for the class 'Controller'.
+[1:01:06 PM] [FlutterRun] [Error] [Flutter (emulator-5554)]  - 'Controller' is from 'package:to_do_app/controller/controller.dart' ('lib/controller/controller.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'getDataList'.
+                    itemCount: controller.getDataList.length,
+                                          ^^^^^^^^^^^
+[1:01:07 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] lib/controller/controller.dart:15:36: Error: The argument type 'BuildContext?' can't be assigned to the parameter type 'BuildContext' because 'BuildContext?' is nullable and 'BuildContext' isn't.
+[1:01:07 PM] [FlutterRun] [Error] [Flutter (emulator-5554)]  - 'BuildContext' is from 'package:flutter/src/widgets/framework.dart' ('../Downloads/flutter/packages/flutter/lib/src/widgets/framework.dart').
+    _client=GraphQLProvider.of(Get.context).value;
+                                   ^
+[1:01:07 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] lib/controller/controller.dart:15:5: Error: The setter '_client' isn't defined for the class 'Controller'.
+[1:01:07 PM] [FlutterRun] [Error] [Flutter (emulator-5554)]  - 'Controller' is from 'package:to_do_app/controller/controller.dart' ('lib/controller/controller.dart').
+Try correcting the name to the name of an existing setter, or defining a setter or field named '_client'.
+    _client=GraphQLProvider.of(Get.context).value;
+[1:01:07 PM] [FlutterRun] [Error] [Flutter (emulator-5554)]     ^^^^^^^
+[1:10:05 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] lib/view/home_page.dart:37:43: Error: The getter 'getDataList' isn't defined for the class 'Controller'.
+[1:10:05 PM] [FlutterRun] [Error] [Flutter (emulator-5554)]  - 'Controller' is from 'package:to_do_app/controller/controller.dart' ('lib/controller/controller.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'getDataList'.
+                    itemCount: controller.getDataList.length,
+                                          ^^^^^^^^^^^
+[1:10:06 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] lib/controller/controller.dart:15:36: Error: The argument type 'BuildContext?' can't be assigned to the parameter type 'BuildContext' because 'BuildContext?' is nullable and 'BuildContext' isn't.
+[1:10:06 PM] [FlutterRun] [Error] [Flutter (emulator-5554)]  - 'BuildContext' is from 'package:flutter/src/widgets/framework.dart' ('../Downloads/flutter/packages/flutter/lib/src/widgets/framework.dart').
+    _client=GraphQLProvider.of(Get.context).value;
+                                   ^
+[1:10:06 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] lib/controller/controller.dart:15:5: Error: The setter '_client' isn't defined for the class 'Controller'.
+[1:10:06 PM] [FlutterRun] [Error] [Flutter (emulator-5554)]  - 'Controller' is from 'package:to_do_app/controller/controller.dart' ('lib/controller/controller.dart').
+[1:10:06 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] Try correcting the name to the name of an existing setter, or defining a setter or field named '_client'.
+    _client=GraphQLProvider.of(Get.context).value;
+    ^^^^^^^
+[1:18:54 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] lib/main.dart:16:15: Error: Expected an identifier, but got ','.
+[1:18:54 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] Try inserting an identifier before ','.
+      client: ,
+              ^
+[1:18:54 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] lib/controller/controller.dart:16:38: Error: The argument type 'BuildContext?' can't be assigned to the parameter type 'BuildContext' because 'BuildContext?' is nullable and 'BuildContext' isn't.
+[1:18:54 PM] [FlutterRun] [Error] [Flutter (emulator-5554)]  - 'BuildContext' is from 'package:flutter/src/widgets/framework.dart' ('../Downloads/flutter/packages/flutter/lib/src/widgets/framework.dart').
+    _client = GraphQLProvider.of(Get.context).value;
+[1:18:54 PM] [FlutterRun] [Error] [Flutter (emulator-5554)]                                      ^
+[1:23:49 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] lib/main.dart:16:15: Error: Expected an identifier, but got ','.
+[1:23:49 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] Try inserting an identifier before ','.
+      client: ,
+              ^
+[1:25:23 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] lib/main.dart:16:15: Error: Expected an identifier, but got ','.
+[1:25:23 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] Try inserting an identifier before ','.
+      client: ,
+              ^
+[1:26:05 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] lib/main.dart:16:15: Error: Expected an identifier, but got ','.
+[1:26:05 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] Try inserting an identifier before ','.
+      client: ,
+              ^
+[1:32:34 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] lib/main.dart:16:15: Error: Expected an identifier, but got ','.
+[1:32:34 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] Try inserting an identifier before ','.
+      client: ,
+              ^
+[1:33:44 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] lib/main.dart:16:15: Error: Expected an identifier, but got ','.
+[1:33:44 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] Try inserting an identifier before ','.
+      client: ,
+              ^
+[1:35:36 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] lib/main.dart:16:15: Error: Expected an identifier, but got ','.
+[1:35:36 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] Try inserting an identifier before ','.
+      client: ,
+              ^
+[1:38:03 PM] [General] [Info] Took 1189ms to search for projects (5 levels)
+[1:38:04 PM] [General] [Info] Took 88ms to filter out excluded projects (0 exclusion rules)
+[1:38:04 PM] [General] [Info] Checking 1 projects for supported platforms
+[1:38:04 PM] [General] [Info] Supported platforms for the workspace are linux, macos, windows, ios, android, web
+[1:38:09 PM] [General] [Info] Returning cached promise for getSupportedPlatforms()
+[1:38:46 PM] [General] [Info] Saving emulator-5554 as preferred device
+[1:38:46 PM] [General] [Info] Returning cached results for project search
+[1:38:46 PM] [General] [Info] Checking 1 projects for supported platforms
+[1:38:46 PM] [General] [Info] Supported platforms for the workspace are linux, macos, windows, ios, android, web
+[1:39:10 PM] [General] [Info] Starting debug session...
+[1:39:10 PM] [General] [Info]     workspace: C:\Users\User\to_do_app
+[1:39:10 PM] [General] [Info] Setting cwd based on likely entry point: C:\Users\User\to_do_app
+[1:39:10 PM] [General] [Info] Using found common entry point: C:\Users\User\to_do_app\lib\main.dart
+[1:39:10 PM] [General] [Info] Using workspace as cwd: C:\Users\User\to_do_app
+[1:39:10 PM] [General] [Info] Detected launch project as Flutter
+[1:39:10 PM] [General] [Info] Using Flutter debug adapter for this session
+[1:39:10 PM] [General] [Info] Getting DevTools server address to pass to Flutter...
+[1:39:10 PM] [General] [Info] Checking for errors before launching
+[1:39:10 PM] [General] [Info] Debug session starting...
+    {
+        "dartCodeDebugSessionID": "session-f895d",
+        "type": "dart",
+        "request": "launch",
+        "program": "C:\\Users\\User\\to_do_app\\lib\\main.dart",
+        "cwd": "C:\\Users\\User\\to_do_app",
+        "name": "Flutter (Pixel 3 API 30)",
+        "deviceId": "emulator-5554",
+        "deviceName": "Pixel 3 API 30 (android-x86)",
+        "toolEnv": {
+            "FLUTTER_HOST": "VSCode",
+            "PUB_ENVIRONMENT": "vscode.dart-code"
+        },
+        "sendLogsToClient": false,
+        "sendCustomProgressEvents": true,
+        "additionalProjectPaths": [
+            "C:\\Users\\User\\to_do_app"
+        ],
+        "args": [],
+        "vmAdditionalArgs": [],
+        "toolArgs": [
+            "-d",
+            "emulator-5554",
+            "--devtools-server-address",
+            "http://127.0.0.1:9100/"
+        ],
+        "vmServicePort": 0,
+        "dartSdkPath": "C:\\Users\\User\\Downloads\\flutter\\bin\\cache\\dart-sdk",
+        "vmServiceLogFile": "C:\\Users\\User\\to_do_app\\logs\\observatory.txt",
+        "maxLogLineLength": 2000,
+        "dartTestLogFile": "C:\\Users\\User\\to_do_app\\logs\\dart_test.txt",
+        "debugSdkLibraries": false,
+        "debugExternalPackageLibraries": false,
+        "showDartDeveloperLogs": true,
+        "evaluateGettersInDebugViews": true,
+        "evaluateToStringInDebugViews": true,
+        "flutterSdkPath": "C:\\Users\\User\\Downloads\\flutter",
+        "useInspectorNotificationsForWidgetErrors": true,
+        "flutterRunLogFile": "C:\\Users\\User\\to_do_app\\logs\\flutter_run.txt",
+        "flutterTestLogFile": "C:\\Users\\User\\to_do_app\\logs\\flutter_test.txt",
+        "showMemoryUsage": false,
+        "debuggerType": 2
+    }
+[1:39:10 PM] [General] [Info] Using flutter debugger for Flutter
+[1:39:10 PM] [General] [Info] SDK DAP setting is false, set by sdkDaps experiment
+[1:39:10 PM] [General] [Info] Running debugger via node with c:\Users\User\.vscode\extensions\dart-code.dart-code-3.64.0\out\dist\debug.js    flutter
+[1:39:11 PM] [General] [Info] Did not find session 12485142-b1c1-4a6f-90e1-73ba6695c65f to handle dart.progressStart. There were 0 sessions:
+[1:39:11 PM] [General] [Info] Event will be queued and processed when the session start event fires
+[1:39:11 PM] [General] [Info] Processing delayed event dart.progressStart for session 12485142-b1c1-4a6f-90e1-73ba6695c65f
+[1:40:51 PM] [General] [Info] Returning cached results for project search
+[1:41:27 PM] [General] [Info] Returning cached results for project search
+[1:44:06 PM] [General] [Info] Took 292ms to search for projects (5 levels)
+[1:44:06 PM] [General] [Info] Took 14ms to filter out excluded projects (0 exclusion rules)
+[1:50:08 PM] [General] [Info] Took 175ms to search for projects (5 levels)
+[1:50:08 PM] [General] [Info] Took 12ms to filter out excluded projects (0 exclusion rules)
+[1:51:16 PM] [General] [Info] Returning cached results for project search
+[1:51:16 PM] [General] [Info] Checking 1 projects for supported platforms
+[1:51:16 PM] [General] [Info] Supported platforms for the workspace are linux, macos, windows, ios, android, web
+[1:51:29 PM] [General] [Info] Returning cached results for project search
+[1:51:29 PM] [General] [Info] Checking 1 projects for supported platforms
+[1:51:29 PM] [General] [Info] Supported platforms for the workspace are linux, macos, windows, ios, android, web
+[1:51:42 PM] [General] [Info] Saving emulator-5554 as preferred device
+[1:51:42 PM] [General] [Info] Returning cached results for project search
+[1:51:42 PM] [General] [Info] Checking 1 projects for supported platforms
+[1:51:42 PM] [General] [Info] Supported platforms for the workspace are linux, macos, windows, ios, android, web
+[1:51:45 PM] [General] [Info] Starting debug session...
+[1:51:45 PM] [General] [Info]     workspace: C:\Users\User\to_do_app
+[1:51:45 PM] [General] [Info] Setting cwd based on likely entry point: C:\Users\User\to_do_app
+[1:51:45 PM] [General] [Info] Using found common entry point: C:\Users\User\to_do_app\lib\main.dart
+[1:51:45 PM] [General] [Info] Using workspace as cwd: C:\Users\User\to_do_app
+[1:51:45 PM] [General] [Info] Detected launch project as Flutter
+[1:51:45 PM] [General] [Info] Using Flutter debug adapter for this session
+[1:51:45 PM] [General] [Info] Getting DevTools server address to pass to Flutter...
+[1:51:45 PM] [General] [Info] Checking for errors before launching
+[1:51:45 PM] [General] [Info] Debug session starting...
+    {
+        "dartCodeDebugSessionID": "session-40eb1",
+        "type": "dart",
+        "request": "launch",
+        "program": "C:\\Users\\User\\to_do_app\\lib\\main.dart",
+        "cwd": "C:\\Users\\User\\to_do_app",
+        "name": "Flutter (Pixel 3 API 30)",
+        "deviceId": "emulator-5554",
+        "deviceName": "Pixel 3 API 30 (android-x86)",
+        "toolEnv": {
+            "FLUTTER_HOST": "VSCode",
+            "PUB_ENVIRONMENT": "vscode.dart-code"
+        },
+        "sendLogsToClient": false,
+        "sendCustomProgressEvents": true,
+        "additionalProjectPaths": [
+            "C:\\Users\\User\\to_do_app"
+        ],
+        "args": [],
+        "vmAdditionalArgs": [],
+        "toolArgs": [
+            "-d",
+            "emulator-5554",
+            "--devtools-server-address",
+            "http://127.0.0.1:9100/"
+        ],
+        "vmServicePort": 0,
+        "dartSdkPath": "C:\\Users\\User\\Downloads\\flutter\\bin\\cache\\dart-sdk",
+        "vmServiceLogFile": "C:\\Users\\User\\to_do_app\\logs\\observatory.txt",
+        "maxLogLineLength": 2000,
+        "dartTestLogFile": "C:\\Users\\User\\to_do_app\\logs\\dart_test.txt",
+        "debugSdkLibraries": false,
+        "debugExternalPackageLibraries": false,
+        "showDartDeveloperLogs": true,
+        "evaluateGettersInDebugViews": true,
+        "evaluateToStringInDebugViews": true,
+        "flutterSdkPath": "C:\\Users\\User\\Downloads\\flutter",
+        "useInspectorNotificationsForWidgetErrors": true,
+        "flutterRunLogFile": "C:\\Users\\User\\to_do_app\\logs\\flutter_run.txt",
+        "flutterTestLogFile": "C:\\Users\\User\\to_do_app\\logs\\flutter_test.txt",
+        "showMemoryUsage": false,
+        "debuggerType": 2
+    }
+[1:51:45 PM] [General] [Info] Using flutter debugger for Flutter
+[1:51:45 PM] [General] [Info] SDK DAP setting is false, set by sdkDaps experiment
+[1:51:45 PM] [General] [Info] Running debugger via node with c:\Users\User\.vscode\extensions\dart-code.dart-code-3.64.0\out\dist\debug.js    flutter
+[1:51:46 PM] [General] [Info] Did not find session aa0552f2-db8a-43f6-aeb7-80eb33e07408 to handle dart.progressStart. There were 0 sessions:
+[1:51:46 PM] [General] [Info] Event will be queued and processed when the session start event fires
+[1:51:46 PM] [General] [Info] Processing delayed event dart.progressStart for session aa0552f2-db8a-43f6-aeb7-80eb33e07408
+[1:52:50 PM] [General] [Info] Returning cached results for project search
+[2:02:01 PM] [General] [Info] Took 151ms to search for projects (5 levels)
+[2:02:01 PM] [General] [Info] Took 2ms to filter out excluded projects (0 exclusion rules)
+[2:02:03 PM] [General] [Info] Pubspec C:\Users\User\to_do_app\pubspec.yaml was modified
+[2:02:04 PM] [General] [Info] Returning cached results for project search
+[2:02:04 PM] [General] [Info] Version last used for Pub is 3.0.0 (3.0.0), current is 3.0.0 (3.0.0)
+[2:02:04 PM] [General] [Info] Found 1 folders requiring "pub get" or "pub upgrade":
+    C:\Users\User\to_do_app (get: true, upgrade: false, reason: pubspec.yaml was modified (Thu Jun 01 2023 14:02:03 GMT+0530 (India Standard Time)) more recently than pubspec.lock (Thu Jun 01 2023 14:01:05 GMT+0530 (India Standard Time)))
+[2:02:13 PM] [General] [Info] Returning cached results for project search
+[2:02:16 PM] [General] [Info] Returning cached results for project search
+[2:04:16 PM] [General] [Info] Returning cached results for project search
+[2:04:55 PM] [General] [Info] Returning cached results for project search
+[2:10:10 PM] [General] [Info] Took 165ms to search for projects (5 levels)
+[2:10:10 PM] [General] [Info] Took 10ms to filter out excluded projects (0 exclusion rules)
+[2:15:42 PM] [General] [Info] Took 315ms to search for projects (5 levels)
+[2:15:42 PM] [General] [Info] Took 8ms to filter out excluded projects (0 exclusion rules)
+[2:18:34 PM] [General] [Info] Returning cached results for project search
+[2:20:25 PM] [General] [Info] Returning cached results for project search
+[2:26:24 PM] [General] [Info] Took 322ms to search for projects (5 levels)
+[2:26:24 PM] [General] [Info] Took 3ms to filter out excluded projects (0 exclusion rules)
+[2:28:36 PM] [General] [Info] Returning cached results for project search
+[2:30:04 PM] [General] [Info] Returning cached results for project search
+[2:30:19 PM] [FlutterRun] [Error] [Flutter (Pixel 3 API 30)] lib/view/home_page.dart:46:48: Error: The getter 'product' isn't defined for the class 'HomePage'.
+ - 'HomePage' is from 'package:to_do_app/view/home_page.dart' ('lib/view/home_page.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'product'.
+                          child: Image.network(product['thumbnail']['url']),
+                                               ^^^^^^^
+[2:31:48 PM] [General] [Info] Took 173ms to search for projects (5 levels)
+[2:31:48 PM] [General] [Info] Took 4ms to filter out excluded projects (0 exclusion rules)
+[2:33:26 PM] [General] [Info] Returning cached results for project search
+[2:35:07 PM] [General] [Info] Returning cached results for project search
+[2:36:58 PM] [General] [Info] Took 250ms to search for projects (5 levels)
+[2:36:58 PM] [General] [Info] Took 16ms to filter out excluded projects (0 exclusion rules)
+[2:39:11 PM] [General] [Info] Returning cached results for project search
+[2:40:34 PM] [General] [Info] Returning cached results for project search
+[2:46:05 PM] [General] [Info] Took 158ms to search for projects (5 levels)
+[2:46:05 PM] [General] [Info] Took 3ms to filter out excluded projects (0 exclusion rules)
+[2:46:32 PM] [General] [Info] Returning cached results for project search
+[2:47:20 PM] [General] [Info] Returning cached results for project search
+[2:49:05 PM] [General] [Info] Returning cached results for project search
+[2:53:22 PM] [General] [Info] Took 325ms to search for projects (5 levels)
+[2:53:22 PM] [General] [Info] Took 14ms to filter out excluded projects (0 exclusion rules)
+[2:54:25 PM] [General] [Info] Returning cached results for project search
+[2:56:23 PM] [General] [Info] Returning cached results for project search
+[2:58:05 PM] [General] [Info] Returning cached results for project search
+[2:59:34 PM] [General] [Info] Took 178ms to search for projects (5 levels)
+[2:59:34 PM] [General] [Info] Took 12ms to filter out excluded projects (0 exclusion rules)
+[3:01:45 PM] [General] [Info] Returning cached results for project search
+[3:03:28 PM] [General] [Info] Returning cached results for project search
+[3:04:25 PM] [General] [Info] Returning cached results for project search
+[3:19:09 PM] [General] [Info] Took 345ms to search for projects (5 levels)
+[3:19:09 PM] [General] [Info] Took 3ms to filter out excluded projects (0 exclusion rules)
+[3:24:36 PM] [General] [Info] Took 175ms to search for projects (5 levels)
+[3:24:36 PM] [General] [Info] Took 3ms to filter out excluded projects (0 exclusion rules)
+[3:25:10 PM] [General] [Info] Returning cached results for project search
+[3:25:46 PM] [General] [Info] Returning cached results for project search
+[3:26:00 PM] [General] [Info] Returning cached results for project search
+[3:40:06 PM] [General] [Info] Took 213ms to search for projects (5 levels)
+[3:40:07 PM] [General] [Info] Took 13ms to filter out excluded projects (0 exclusion rules)
+[3:40:48 PM] [General] [Info] Returning cached results for project search
+[3:46:37 PM] [FlutterRun] [Error] [Flutter (Pixel 3 API 30)] lib/view/home_page.dart:60:47: Error: The getter 'allProducts' isn't defined for the class 'Controller'.
+[3:46:37 PM] [FlutterRun] [Error] [Flutter (Pixel 3 API 30)]  - 'Controller' is from 'package:to_do_app/controller/controller.dart' ('lib/controller/controller.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'allProducts'.
+                        itemCount: controller.allProducts.length,
+                                              ^^^^^^^^^^^
+[3:47:32 PM] [General] [Info] Took 379ms to search for projects (5 levels)
+[3:47:32 PM] [General] [Info] Took 4ms to filter out excluded projects (0 exclusion rules)
+[3:50:59 PM] [General] [Info] Returning cached results for project search
+[3:52:14 PM] [FlutterRun] [Error] [Flutter (Pixel 3 API 30)] lib/view/home_page.dart:60:47: Error: The getter 'product' isn't defined for the class 'Controller'.
+[3:52:14 PM] [FlutterRun] [Error] [Flutter (Pixel 3 API 30)]  - 'Controller' is from 'package:to_do_app/controller/controller.dart' ('lib/controller/controller.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'product'.
+                        itemCount: controller.product.length,
+                                              ^^^^^^^
+lib/view/home_page.dart:62:54: Error: The getter 'product' isn't defined for the class 'Controller'.
+ - 'Controller' is from 'package:to_do_app/controller/controller.dart' ('lib/controller/controller.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'product'.
+[3:52:14 PM] [FlutterRun] [Error] [Flutter (Pixel 3 API 30)]                           final product = controller.product[index]['node'];
+                                                     ^^^^^^^
+[3:53:23 PM] [General] [Info] Took 357ms to search for projects (5 levels)
+[3:53:23 PM] [General] [Info] Took 3ms to filter out excluded projects (0 exclusion rules)
+[3:55:44 PM] [General] [Info] Returning cached results for project search
+[3:56:58 PM] [General] [Info] Returning cached results for project search
+[3:57:51 PM] [General] [Info] Returning cached results for project search
+[3:59:20 PM] [General] [Info] Took 151ms to search for projects (5 levels)
+[3:59:20 PM] [General] [Info] Took 4ms to filter out excluded projects (0 exclusion rules)
+[4:04:01 PM] [General] [Info] Returning cached results for project search
+[4:05:32 PM] [General] [Info] Took 266ms to search for projects (5 levels)
+[4:05:32 PM] [General] [Info] Took 146ms to filter out excluded projects (0 exclusion rules)
+[4:08:59 PM] [General] [Info] Returning cached results for project search
+[4:10:17 PM] [General] [Info] Returning cached results for project search
+[4:11:37 PM] [General] [Info] Took 253ms to search for projects (5 levels)
+[4:11:37 PM] [General] [Info] Took 13ms to filter out excluded projects (0 exclusion rules)
+[4:13:08 PM] [General] [Info] Returning cached results for project search
+[4:14:18 PM] [General] [Info] Returning cached results for project search
+[4:14:46 PM] [General] [Info] Returning cached results for project search
+[4:27:13 PM] [General] [Info] Took 185ms to search for projects (5 levels)
+[4:27:13 PM] [General] [Info] Took 3ms to filter out excluded projects (0 exclusion rules)
+[4:27:54 PM] [General] [Info] Returning cached results for project search
+[4:29:14 PM] [General] [Info] Returning cached results for project search
+[4:34:20 PM] [General] [Info] Took 220ms to search for projects (5 levels)
+[4:34:20 PM] [General] [Info] Took 2ms to filter out excluded projects (0 exclusion rules)
+[4:37:11 PM] [General] [Info] Returning cached results for project search
+[4:39:57 PM] [General] [Info] Took 189ms to search for projects (5 levels)
+[4:39:57 PM] [General] [Info] Took 11ms to filter out excluded projects (0 exclusion rules)
+[4:40:32 PM] [FlutterRun] [Error] [Flutter (Pixel 3 API 30)] lib/view/home_page.dart:48:26: Error: The getter 'isLoading' isn't defined for the class 'Controller'.
+ - 'Controller' is from 'package:to_do_app/controller/controller.dart' ('lib/controller/controller.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'isLoading'.
+              controller.isLoading.value==true
+                         ^^^^^^^^^
+[4:41:07 PM] [General] [Info] Returning cached results for project search
+[4:41:32 PM] [General] [Info] Returning cached results for project search
+[4:41:50 PM] [General] [Info] Returning cached results for project search
+[5:38:28 PM] [General] [Info] Took 307ms to search for projects (5 levels)
+[5:38:28 PM] [General] [Info] Took 4ms to filter out excluded projects (0 exclusion rules)
+[5:40:01 PM] [General] [Info] Returning cached results for project search

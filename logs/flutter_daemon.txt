@@ -1,0 +1,169 @@
+!! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.64.0
+Flutter extension: 3.64.0 (not activated)
+
+App: Visual Studio Code
+Version: 1.78.2
+Platform: win
+
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+
+Logging Categories:
+    FlutterDaemon
+
+Thu Jun 01 2023 [10:04:29 GMT+0530 (India Standard Time)] Log file started
+[10:04:29 AM] [FlutterDaemon] [Info] Spawning C:\Users\User\Downloads\flutter\bin\flutter.bat with args ["daemon"]
+[10:04:29 AM] [FlutterDaemon] [Info] ..  in C:\Users\User\Downloads\flutter
+[10:04:29 AM] [FlutterDaemon] [Info] ..  with {"toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code"}}
+[10:04:29 AM] [FlutterDaemon] [Info]     PID: 11988
+[10:05:00 AM] [FlutterDaemon] [Info] <== [{"event":"daemon.connected","params":{"version":"0.6.1","pid":12668}}]
+[10:05:00 AM] [FlutterDaemon] [Info] ==> [{"id":"1","method":"device.enable"}]
+[10:05:00 AM] [FlutterDaemon] [Info] ==> [{"id":"2","method":"emulator.getEmulators"}]
+[10:05:00 AM] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"status","message":"A new version of Flutter is available!\n\nTo update to the latest version, run \"flutter upgrade\"."}}]
+[10:05:00 AM] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"status","message":"Starting device daemon..."}}]
+[10:05:00 AM] [FlutterDaemon] [Info] <== [{"id":"1"}]
+[10:05:00 AM] [FlutterDaemon] [Info] <== [{"id":"2","result":[{"id":"Pixel_3_API_30","name":"Pixel 3 API 30","category":"mobile","platformType":"android"}]}]
+[10:05:04 AM] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"windows","name":"Windows","platform":"windows-x64","emulator":false,"category":"desktop","platformType":"windows","ephemeral":false,"emulatorId":null,"sdk":"Microsoft Windows [Version 10.0.19044.2965]","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":false,"fastStart":false,"flutterExit":true,"hardwareRendering":true,"startPaused":true}}}]
+[10:05:04 AM] [FlutterDaemon] [Info] ==> [{"id":"3","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\to_do_app"}}]
+[10:05:04 AM] [FlutterDaemon] [Info] <== [{"id":"3","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[10:05:05 AM] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"chrome","name":"Chrome","platform":"web-javascript","emulator":false,"category":"web","platformType":"web","ephemeral":false,"emulatorId":null,"sdk":"Google Chrome 113.0.5672.127","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":false,"fastStart":false,"flutterExit":false,"hardwareRendering":true,"startPaused":true}}}]
+[10:05:05 AM] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"edge","name":"Edge","platform":"web-javascript","emulator":false,"category":"web","platformType":"web","ephemeral":false,"emulatorId":null,"sdk":"Microsoft Edge 113.0.1774.57","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":false,"fastStart":false,"flutterExit":false,"hardwareRendering":true,"startPaused":true}}}]
+[10:05:16 AM] [FlutterDaemon] [Info] ==> [{"id":"4","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\to_do_app"}}]
+[10:05:16 AM] [FlutterDaemon] [Info] <== [{"id":"4","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[10:05:16 AM] [FlutterDaemon] [Info] ==> [{"id":"5","method":"emulator.getEmulators"}]
+[10:05:17 AM] [FlutterDaemon] [Info] <== [{"id":"5","result":[{"id":"Pixel_3_API_30","name":"Pixel 3 API 30","category":"mobile","platformType":"android"}]}]
+[10:05:18 AM] [FlutterDaemon] [Info] ==> [{"id":"6","method":"emulator.launch","params":{"emulatorId":"Pixel_3_API_30","coldBoot":false}}]
+[10:05:21 AM] [FlutterDaemon] [Info] <== [{"id":"6"}]
+[10:05:39 AM] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"error","message":"Error 1 retrieving device properties for emulator-5554:"}}]
+[10:05:39 AM] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"error","message":"adb.exe: device still authorizing\r\n"}}]
+[10:05:39 AM] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"emulator-5554","name":"emulator-5554","platform":"android-arm","emulator":false,"category":"mobile","platformType":"android","ephemeral":true,"emulatorId":null,"sdk":"Android null (API null)","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":true,"fastStart":true,"flutterExit":true,"hardwareRendering":true,"startPaused":true}}}]
+[10:05:39 AM] [FlutterDaemon] [Info] ==> [{"id":"7","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\to_do_app"}}]
+[10:05:39 AM] [FlutterDaemon] [Info] <== [{"id":"7","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[10:07:37 AM] [FlutterDaemon] [Info] ==> [{"id":"8","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\to_do_app"}}]
+[10:07:37 AM] [FlutterDaemon] [Info] <== [{"id":"8","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[10:07:37 AM] [FlutterDaemon] [Info] ==> [{"id":"9","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\to_do_app"}}]
+[10:07:37 AM] [FlutterDaemon] [Info] <== [{"id":"9","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[11:32:13 AM] [FlutterRun] [Error] [Flutter (emulator-5554)] lib/services/service.dart:19:22: Error: Member not found: 'getData'.
+      'query': Query.getData,
+                     ^^^^^^^
+[1:01:06 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] lib/view/home_page.dart:37:43: Error: The getter 'getDataList' isn't defined for the class 'Controller'.
+[1:01:06 PM] [FlutterRun] [Error] [Flutter (emulator-5554)]  - 'Controller' is from 'package:to_do_app/controller/controller.dart' ('lib/controller/controller.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'getDataList'.
+                    itemCount: controller.getDataList.length,
+                                          ^^^^^^^^^^^
+[1:01:07 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] lib/controller/controller.dart:15:36: Error: The argument type 'BuildContext?' can't be assigned to the parameter type 'BuildContext' because 'BuildContext?' is nullable and 'BuildContext' isn't.
+[1:01:07 PM] [FlutterRun] [Error] [Flutter (emulator-5554)]  - 'BuildContext' is from 'package:flutter/src/widgets/framework.dart' ('../Downloads/flutter/packages/flutter/lib/src/widgets/framework.dart').
+    _client=GraphQLProvider.of(Get.context).value;
+                                   ^
+[1:01:07 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] lib/controller/controller.dart:15:5: Error: The setter '_client' isn't defined for the class 'Controller'.
+[1:01:07 PM] [FlutterRun] [Error] [Flutter (emulator-5554)]  - 'Controller' is from 'package:to_do_app/controller/controller.dart' ('lib/controller/controller.dart').
+Try correcting the name to the name of an existing setter, or defining a setter or field named '_client'.
+    _client=GraphQLProvider.of(Get.context).value;
+[1:01:07 PM] [FlutterRun] [Error] [Flutter (emulator-5554)]     ^^^^^^^
+[1:10:05 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] lib/view/home_page.dart:37:43: Error: The getter 'getDataList' isn't defined for the class 'Controller'.
+[1:10:05 PM] [FlutterRun] [Error] [Flutter (emulator-5554)]  - 'Controller' is from 'package:to_do_app/controller/controller.dart' ('lib/controller/controller.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'getDataList'.
+                    itemCount: controller.getDataList.length,
+                                          ^^^^^^^^^^^
+[1:10:06 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] lib/controller/controller.dart:15:36: Error: The argument type 'BuildContext?' can't be assigned to the parameter type 'BuildContext' because 'BuildContext?' is nullable and 'BuildContext' isn't.
+[1:10:06 PM] [FlutterRun] [Error] [Flutter (emulator-5554)]  - 'BuildContext' is from 'package:flutter/src/widgets/framework.dart' ('../Downloads/flutter/packages/flutter/lib/src/widgets/framework.dart').
+    _client=GraphQLProvider.of(Get.context).value;
+                                   ^
+[1:10:06 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] lib/controller/controller.dart:15:5: Error: The setter '_client' isn't defined for the class 'Controller'.
+[1:10:06 PM] [FlutterRun] [Error] [Flutter (emulator-5554)]  - 'Controller' is from 'package:to_do_app/controller/controller.dart' ('lib/controller/controller.dart').
+[1:10:06 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] Try correcting the name to the name of an existing setter, or defining a setter or field named '_client'.
+    _client=GraphQLProvider.of(Get.context).value;
+    ^^^^^^^
+[1:18:54 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] lib/main.dart:16:15: Error: Expected an identifier, but got ','.
+[1:18:54 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] Try inserting an identifier before ','.
+      client: ,
+              ^
+[1:18:54 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] lib/controller/controller.dart:16:38: Error: The argument type 'BuildContext?' can't be assigned to the parameter type 'BuildContext' because 'BuildContext?' is nullable and 'BuildContext' isn't.
+[1:18:54 PM] [FlutterRun] [Error] [Flutter (emulator-5554)]  - 'BuildContext' is from 'package:flutter/src/widgets/framework.dart' ('../Downloads/flutter/packages/flutter/lib/src/widgets/framework.dart').
+    _client = GraphQLProvider.of(Get.context).value;
+[1:18:54 PM] [FlutterRun] [Error] [Flutter (emulator-5554)]                                      ^
+[1:23:49 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] lib/main.dart:16:15: Error: Expected an identifier, but got ','.
+[1:23:49 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] Try inserting an identifier before ','.
+      client: ,
+              ^
+[1:25:23 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] lib/main.dart:16:15: Error: Expected an identifier, but got ','.
+[1:25:23 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] Try inserting an identifier before ','.
+      client: ,
+              ^
+[1:26:05 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] lib/main.dart:16:15: Error: Expected an identifier, but got ','.
+[1:26:05 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] Try inserting an identifier before ','.
+      client: ,
+              ^
+[1:32:34 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] lib/main.dart:16:15: Error: Expected an identifier, but got ','.
+[1:32:34 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] Try inserting an identifier before ','.
+      client: ,
+              ^
+[1:33:44 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] lib/main.dart:16:15: Error: Expected an identifier, but got ','.
+[1:33:44 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] Try inserting an identifier before ','.
+      client: ,
+              ^
+[1:35:36 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] lib/main.dart:16:15: Error: Expected an identifier, but got ','.
+[1:35:36 PM] [FlutterRun] [Error] [Flutter (emulator-5554)] Try inserting an identifier before ','.
+      client: ,
+              ^
+[1:38:04 PM] [FlutterDaemon] [Info] ==> [{"id":"10","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\to_do_app"}}]
+[1:38:04 PM] [FlutterDaemon] [Info] <== [{"id":"10","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[1:38:04 PM] [FlutterDaemon] [Info] ==> [{"id":"11","method":"emulator.getEmulators"}]
+[1:38:04 PM] [FlutterDaemon] [Info] <== [{"id":"11","result":[{"id":"Pixel_3_API_30","name":"Pixel 3 API 30","category":"mobile","platformType":"android"}]}]
+[1:38:09 PM] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"error","message":"Error 1 retrieving device properties for sdk gphone x86:"}}]
+[1:38:09 PM] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"error","message":"adb.exe: device 'emulator-5554' not found\r\n"}}]
+[1:38:09 PM] [FlutterDaemon] [Info] <== [{"event":"device.removed","params":{"id":"emulator-5554","name":"sdk gphone x86","platform":"android-arm","emulator":false,"category":"mobile","platformType":"android","ephemeral":true,"emulatorId":null,"sdk":"Android null (API null)","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":true,"fastStart":true,"flutterExit":true,"hardwareRendering":true,"startPaused":true}}}]
+[1:38:34 PM] [FlutterDaemon] [Info] ==> [{"id":"12","method":"emulator.launch","params":{"emulatorId":"Pixel_3_API_30","coldBoot":false}}]
+[1:38:37 PM] [FlutterDaemon] [Info] <== [{"id":"12"}]
+[1:38:46 PM] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"emulator-5554","name":"sdk gphone x86","platform":"android-x86","emulator":true,"category":"mobile","platformType":"android","ephemeral":true,"emulatorId":"Pixel_3_API_30","sdk":"Android 11 (API 30)","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":true,"fastStart":true,"flutterExit":true,"hardwareRendering":true,"startPaused":true}}}]
+[1:38:46 PM] [FlutterDaemon] [Info] ==> [{"id":"13","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\to_do_app"}}]
+[1:38:46 PM] [FlutterDaemon] [Info] <== [{"id":"13","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[1:39:10 PM] [FlutterDaemon] [Info] ==> [{"id":"14","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\to_do_app"}}]
+[1:39:10 PM] [FlutterDaemon] [Info] <== [{"id":"14","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[1:39:10 PM] [FlutterDaemon] [Info] ==> [{"id":"15","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\to_do_app"}}]
+[1:39:10 PM] [FlutterDaemon] [Info] <== [{"id":"15","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[1:51:16 PM] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"error","message":"Error 1 retrieving device properties for sdk gphone x86:"}}]
+[1:51:16 PM] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"error","message":"adb.exe: device 'emulator-5554' not found\r\n"}}]
+[1:51:16 PM] [FlutterDaemon] [Info] <== [{"event":"device.removed","params":{"id":"emulator-5554","name":"sdk gphone x86","platform":"android-arm","emulator":false,"category":"mobile","platformType":"android","ephemeral":true,"emulatorId":null,"sdk":"Android null (API null)","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":true,"fastStart":true,"flutterExit":true,"hardwareRendering":true,"startPaused":true}}}]
+[1:51:16 PM] [FlutterDaemon] [Info] ==> [{"id":"16","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\to_do_app"}}]
+[1:51:16 PM] [FlutterDaemon] [Info] <== [{"id":"16","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[1:51:29 PM] [FlutterDaemon] [Info] ==> [{"id":"17","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\to_do_app"}}]
+[1:51:29 PM] [FlutterDaemon] [Info] <== [{"id":"17","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[1:51:29 PM] [FlutterDaemon] [Info] ==> [{"id":"18","method":"emulator.getEmulators"}]
+[1:51:29 PM] [FlutterDaemon] [Info] <== [{"id":"18","result":[{"id":"Pixel_3_API_30","name":"Pixel 3 API 30","category":"mobile","platformType":"android"}]}]
+[1:51:31 PM] [FlutterDaemon] [Info] ==> [{"id":"19","method":"emulator.launch","params":{"emulatorId":"Pixel_3_API_30","coldBoot":false}}]
+[1:51:34 PM] [FlutterDaemon] [Info] <== [{"id":"19"}]
+[1:51:42 PM] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"emulator-5554","name":"sdk gphone x86","platform":"android-x86","emulator":true,"category":"mobile","platformType":"android","ephemeral":true,"emulatorId":"Pixel_3_API_30","sdk":"Android 11 (API 30)","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":true,"fastStart":true,"flutterExit":true,"hardwareRendering":true,"startPaused":true}}}]
+[1:51:42 PM] [FlutterDaemon] [Info] ==> [{"id":"20","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\to_do_app"}}]
+[1:51:42 PM] [FlutterDaemon] [Info] <== [{"id":"20","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[1:51:45 PM] [FlutterDaemon] [Info] ==> [{"id":"21","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\to_do_app"}}]
+[1:51:45 PM] [FlutterDaemon] [Info] <== [{"id":"21","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[1:51:45 PM] [FlutterDaemon] [Info] ==> [{"id":"22","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\to_do_app"}}]
+[1:51:45 PM] [FlutterDaemon] [Info] <== [{"id":"22","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[2:30:19 PM] [FlutterRun] [Error] [Flutter (Pixel 3 API 30)] lib/view/home_page.dart:46:48: Error: The getter 'product' isn't defined for the class 'HomePage'.
+ - 'HomePage' is from 'package:to_do_app/view/home_page.dart' ('lib/view/home_page.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'product'.
+                          child: Image.network(product['thumbnail']['url']),
+                                               ^^^^^^^
+[3:46:37 PM] [FlutterRun] [Error] [Flutter (Pixel 3 API 30)] lib/view/home_page.dart:60:47: Error: The getter 'allProducts' isn't defined for the class 'Controller'.
+[3:46:37 PM] [FlutterRun] [Error] [Flutter (Pixel 3 API 30)]  - 'Controller' is from 'package:to_do_app/controller/controller.dart' ('lib/controller/controller.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'allProducts'.
+                        itemCount: controller.allProducts.length,
+                                              ^^^^^^^^^^^
+[3:52:14 PM] [FlutterRun] [Error] [Flutter (Pixel 3 API 30)] lib/view/home_page.dart:60:47: Error: The getter 'product' isn't defined for the class 'Controller'.
+[3:52:14 PM] [FlutterRun] [Error] [Flutter (Pixel 3 API 30)]  - 'Controller' is from 'package:to_do_app/controller/controller.dart' ('lib/controller/controller.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'product'.
+                        itemCount: controller.product.length,
+                                              ^^^^^^^
+lib/view/home_page.dart:62:54: Error: The getter 'product' isn't defined for the class 'Controller'.
+ - 'Controller' is from 'package:to_do_app/controller/controller.dart' ('lib/controller/controller.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'product'.
+[3:52:14 PM] [FlutterRun] [Error] [Flutter (Pixel 3 API 30)]                           final product = controller.product[index]['node'];
+                                                     ^^^^^^^
+[4:40:32 PM] [FlutterRun] [Error] [Flutter (Pixel 3 API 30)] lib/view/home_page.dart:48:26: Error: The getter 'isLoading' isn't defined for the class 'Controller'.
+ - 'Controller' is from 'package:to_do_app/controller/controller.dart' ('lib/controller/controller.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'isLoading'.
+              controller.isLoading.value==true
+                         ^^^^^^^^^

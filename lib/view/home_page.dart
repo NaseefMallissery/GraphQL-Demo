@@ -1,11 +1,9 @@
 import 'dart:developer';
-
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
 import 'package:to_do_app/controller/controller.dart';
-import 'package:to_do_app/schemas/query.dart';
-
+import 'package:to_do_app/utils/schemas/query.dart';
 import '../utils/loading_widget.dart/loading_widget.dart';
 
 class HomePage extends StatelessWidget {

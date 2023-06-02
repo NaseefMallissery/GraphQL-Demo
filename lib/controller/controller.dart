@@ -1,7 +1,7 @@
 import 'dart:developer';
 import 'package:get/get.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
-import 'package:to_do_app/schemas/query.dart';
+import 'package:to_do_app/utils/schemas/query.dart';
 
 class Controller extends GetxController {
   // final List allProducts = [].obs;

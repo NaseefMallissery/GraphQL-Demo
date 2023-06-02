@@ -1298,3 +1298,12 @@ Try correcting the name to the name of an existing getter, or defining a getter 
 [5:40:18 pm]: <== [{"event":"app.progress","params":{"appId":"f7ffd94b-5dbe-41a4-9cf5-f0e54b531011","id":"390","progressId":"hot.reload","finished":true}}]
 [5:40:18 pm]: <== Reloaded 2 of 1637 libraries in 3,049ms (compile: 91 ms, reload: 1545 ms, reassemble: 1005 ms).
 [5:40:18 pm]: <== [{"id":"161","result":{"code":0,"message":"Reloaded 2 of 1637 libraries"}}]
+[6:21:27 pm]: ==> [{"id":"162","method":"app.restart","params":{"appId":"f7ffd94b-5dbe-41a4-9cf5-f0e54b531011","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
+[6:21:27 pm]: <== [{"event":"app.progress","params":{"appId":"f7ffd94b-5dbe-41a4-9cf5-f0e54b531011","id":"392","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[6:21:27 pm]: <== [{"event":"app.progress","params":{"appId":"f7ffd94b-5dbe-41a4-9cf5-f0e54b531011","id":"393","progressId":null,"message":"Syncing files to device sdk gphone x86...","finished":false}}]
+[6:21:29 pm]: <== [{"event":"app.progress","params":{"appId":"f7ffd94b-5dbe-41a4-9cf5-f0e54b531011","id":"393","progressId":null,"finished":true}}]
+[6:21:30 pm]: <== [{"event":"app.progress","params":{"appId":"f7ffd94b-5dbe-41a4-9cf5-f0e54b531011","id":"392","progressId":"hot.reload","finished":true}}]
+[6:21:30 pm]: <== Reloaded 1 of 1637 libraries in 2,965ms (compile: 1219 ms, reload: 516 ms, reassemble: 718 ms).
+[6:21:30 pm]: <== [{"id":"162","result":{"code":0,"message":"Reloaded 1 of 1637 libraries"}}]
+[6:47:25 pm]: ==> [{"id":"163","method":"app.stop","params":{"appId":"f7ffd94b-5dbe-41a4-9cf5-f0e54b531011"}}]
+[6:47:28 pm]: Process C:\Users\User\Downloads\flutter\bin\flutter.bat terminated! 1, null
